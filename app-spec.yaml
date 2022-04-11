@@ -11,7 +11,7 @@ functions:
   - path: /api
   source_dir: /
 name: qrcode
-region: blr
+region: sgp
 static_sites:
 - build_command: ./build.sh
   environment_slug: html
@@ -27,4 +27,4 @@ static_sites:
   output_dir: dist
   routes:
   - path: /
-  source_dir: /client
+  source_dir: /web
